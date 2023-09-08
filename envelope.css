@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Great Vibes';
+    src: url("./Fonts/AlexandraCalligraphyRegular-Yz5zL.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Magnivera';
+    src: url("./Fonts/Magnivera/MagniveraTrial-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Magnivera Regular';
+    src: url("./Fonts/Magnivera/MagniveraTrial-Regular.otf") format("opentype");
+} 
+
+body {
+    background-color: rgb(247, 235, 212);
+}
+
+p {
+    text-align: center;
+    color: rgb(62, 3, 3);
+}
+
+#line-1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36pt;
+    font-weight: bolder;
+    letter-spacing: 2.5px;
+    margin-bottom: 0;
+}
+
+#line-2 {
+    font-family: 'Magnivera', serif;
+    font-size: 22px;
+    font-style: italic;
+}
+
+#line-3, #line-4 {
+    font-weight: bold;
+}
